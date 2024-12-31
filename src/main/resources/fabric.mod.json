@@ -1,0 +1,22 @@
+{
+	"schemaVersion": 1,
+	"id": "selfdelmod",
+	"version": "${version}",
+	"name": "Self-deleting mod",
+	"authors": [
+		"Ivy"
+	],
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"me.ivy.selfdelmod.SelfDelMod"
+		]
+	},
+	"mixins": [],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
